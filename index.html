@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Gideon Is 40 🎉</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: white;
+      color: black;
+      height: 300vh;
+    }
+
+    .text {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 48px;
+      line-height: 1.05;
+      text-align: center;
+      width: 90vw;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="text" id="text">
+
+    ICE CREAM MESSAGES FOOD HAHAH GIDDY<BR>
+    <BR><BR>
+    LOVE,<BR>
+    LILLY
+    <BR>
+<BR>
+<BR>
+YOUR CLUE ____
+
+
+  </div>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      const scrollAmount = window.scrollY;
+      const newSize = 48 + scrollAmount / 4;
+      document.getElementById("text").style.fontSize = newSize + "px";
+    });
+  </script>
+
+</body>
+</html>
